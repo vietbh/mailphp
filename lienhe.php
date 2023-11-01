@@ -1,4 +1,4 @@
-<?php include 'mail.php';?>
+<!-- <?php include 'mail.php';?> -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +14,7 @@
 </head>
 <body>
     <div class="container mt-4">
-        <form method="post"> 
+        <form action="mail.php" method="post"> 
         <div class="mb-3">
         <label class="form-label">Email</label>
         <input type="email" class="form-control bg-light" name="email" placeholder="Nhập email của bạn">
